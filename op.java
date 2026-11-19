@@ -12,7 +12,15 @@ public class op {
         return true;
     }
 
+    public static void pr(int n) {
+        for (int i = 2; i <= n; i++) {
+            if (prime(i) == true) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+
     public static void main() {
-        System.out.println(prime(3));
+        pr(8);
     }
 }
