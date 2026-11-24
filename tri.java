@@ -14,12 +14,10 @@ public class tri {
     }
 
     public static void find(int arr[], int n) {
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == 5) {
-                System.out.print("5 is at : " + i);
-            }
+        for (int i = 1; i <= n; i++) {
         }
-
+        for (int i = 1; i <= n; i++) {
+        }
     }
 
     public static void main(String arg[]) {
