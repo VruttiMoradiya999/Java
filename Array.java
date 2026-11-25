@@ -19,6 +19,8 @@ public class Array {
         int n = ls(arr, key);
         if (n == -1) {
             System.out.println("NOT");
+        } else {
+            System.out.println(n);
         }
     }
 
