@@ -53,7 +53,8 @@ public class BasicSorting {
         // bubbleSort(arr);
 
         // selectionSort(arr);
-        insertionSort(arr);
+        // insertionSort(arr);
+        Arrays.sort(arr, Collections.reverseOrder());
         printArr(arr);
 
     }
